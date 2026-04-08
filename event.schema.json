@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.altmanai.tech/event.schema.json",
+  "title": "AINetEvent",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "source",
+    "timestamp",
+    "payload"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload": {}
+  },
+  "additionalProperties": false
+}

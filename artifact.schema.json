@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.altmanai.tech/artifact.schema.json",
+  "title": "Artifact",
+  "type": "object",
+  "required": [
+    "kind",
+    "source",
+    "created_at",
+    "payload"
+  ],
+  "properties": {
+    "kind": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload": {}
+  },
+  "additionalProperties": true
+}
