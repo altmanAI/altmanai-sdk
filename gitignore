@@ -1,0 +1,123 @@
+# =========================================================
+# AltmanAI SDK - Official .gitignore
+# TypeScript + Python monorepo
+# =========================================================
+
+# -------------------------
+# OS / system files
+# -------------------------
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Editors / IDEs
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.swp
+*.swo
+*~
+
+# -------------------------
+# Environment / secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Node / JavaScript / TypeScript
+# -------------------------
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+dist/
+build/
+lib/
+out/
+*.tsbuildinfo
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+site/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# -------------------------
+# Jupyter / notebooks
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Build artifacts / temp
+# -------------------------
+tmp/
+temp/
+.cache/
+.cache-loader/
+eslintcache
+*.tmp
+
+# -------------------------
+# Package outputs
+# -------------------------
+*.tgz
+
+# -------------------------
+# Misc
+# -------------------------
+coverage-final.json
